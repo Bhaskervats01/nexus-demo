@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#red{
+    background-color: red;
+    color: white;
+}
+
+#blue{
+    background-color: blue;
+    color: white;
+}
+
+#orange{
+    background-color: orange;
+    color: white;
+}
+
+#green{
+    background-color: green;
+    color: white;
+}
+
+#purple{
+    background-color: purple;
+    color: white;
+}
+
