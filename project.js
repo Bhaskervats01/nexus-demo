@@ -29,16 +29,22 @@
 
 // Method 2:
 
-const buttons = document.querySelectorAll('button');
-const body = document.body;
-// console.log(buttons);
+// const buttons = document.querySelectorAll('button');
+// const body = document.body;
+// // console.log(buttons);
 
-buttons.forEach((button)=>{
-    button.addEventListener('click', ()=>{
+// buttons.forEach((button)=>{
+//     button.addEventListener('click', ()=>{
 
-       // console.log(button.id);
+//        // console.log(button.id);
 
-        body.style.backgroundColor = button.id;
+//         body.style.backgroundColor = button.id;
 
-    })
+//     })
+// })
+
+const root = document.getElementById('root');
+root.addEventListener('click',(event)=>{
+    if(event.target.tagName==='BUTTON')
+    document.body.style.backgroundColor = event.target.id;
 })
